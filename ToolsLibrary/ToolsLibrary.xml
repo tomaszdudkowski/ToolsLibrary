@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ToolsLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:ToolsLibrary.Helpers">
+            <summary>
+            Biblioteka Helpers
+            Autor: Tomasz Dudkowski
+            </summary>
+        </member>
+        <member name="M:ToolsLibrary.Helpers.SyntaxColor(System.ConsoleColor,System.String)">
+            <summary>
+            Kolorowanie składni terminala. Argument STRING
+            </summary>
+            <param name="consoleColor"><paramref name="consoleColor"/></param>
+            <param name="Text"><paramref name="Text"/></param>
+        </member>
+        <member name="M:ToolsLibrary.Helpers.ReadInt(System.String)">
+            <summary>
+            Konwertowanie STRING na Int32
+            </summary>
+            <param name="arg">arg</param>
+            <returns>Int32.Parse(arg)</returns>
+        </member>
+    </members>
+</doc>
