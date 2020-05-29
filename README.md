@@ -1,3 +1,3 @@
-# ToolsLibrary
+# ToolsLibrary for C#
 
 Autor: Tomasz Dudkowski
