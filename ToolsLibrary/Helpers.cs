@@ -103,11 +103,11 @@ namespace ToolsLibrary
         /// </summary>
         /// <param name="value"></param>
         /// <returns>intArray</returns>
-        public static int[] IntToArray(int value)
+        public static int[] IntToArray(int value, int length)
         {
-            char[] charArray = new char[11];
+            char[] charArray = new char[length];
             charArray = value.ToString().ToCharArray();
-            int[] intArray = new int[11];
+            int[] intArray = new int[length];
             for (int i = 0; i < intArray.Length; i++)
             {
                 intArray[i] = charArray[i] - 48;
@@ -121,11 +121,11 @@ namespace ToolsLibrary
         /// </summary>
         /// <param name="value"></param>
         /// <returns>intArray</returns>
-        public static int[] LongToIntArray(long value)
+        public static int[] LongToIntArray(long value, int length)
         {
-            char[] charArray = new char[11];
+            char[] charArray = new char[length];
             charArray = value.ToString().ToCharArray();
-            int[] intArray = new int[11];
+            int[] intArray = new int[length];
             for (int i = 0; i < intArray.Length; i++)
             {
                 intArray[i] = charArray[i] - 48;
