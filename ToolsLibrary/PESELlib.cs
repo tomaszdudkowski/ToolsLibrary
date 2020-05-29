@@ -115,5 +115,16 @@ namespace ToolsLibrary
             }
             return kontrola;
         }
+
+        public static int GenerujSumeKontrolna(int[] a)
+        {
+            int wynik = a[0] * 1 + a[1] * 3 + a[2] * 7 + a[3] * 9 + a[4] * 1 + a[5] * 3 + a[6] * 7 + a[7] * 9 + a[8] * 1 + a[9] * 3;
+
+            wynik = wynik % 10;
+            wynik = 10 - wynik;
+            wynik = wynik % 10;
+
+            return wynik;
+        }
     }
 }
