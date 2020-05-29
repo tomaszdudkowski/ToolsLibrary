@@ -5,6 +5,7 @@ namespace ToolsLibrary
     /// <summary>
     /// Biblioteka Helpers
     /// Autor: Tomasz Dudkowski
+    /// Data: 29.05.2020 20:05
     /// </summary>
     public static class Helpers
     {

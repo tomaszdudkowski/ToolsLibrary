@@ -8,6 +8,7 @@ namespace ToolsLibrary
     /// <summary>
     /// Biblioteka PESEL
     /// Autor: Tomasz Dudkowski
+    /// Data: 29.05.2020 20:05
     /// </summary>
     public static class PESELlib
     {
