@@ -68,6 +68,11 @@ namespace ToolsLibrary
             return dateTime;
         }
 
+        public static int IleDniMaMiesiac(int rok, int miesiac)
+        {
+            return DateTime.DaysInMonth(rok, miesiac);
+        }
+
         public static string NazwaDniaTygodnia(DateTime dateTime)
         {
             string TextValue = CulturePL.DateTimeFormat.GetDayName(dateTime.DayOfWeek);
